@@ -1,0 +1,129 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFDD0;
+    
+}
+
+.title{
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+.card{
+    height: 100vh;
+    width: 500px;
+    background-color: bisque;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+.input-url{
+    border-radius: 20px;
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+
+.submit-qrcode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-qrcode input{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.QRCODE {
+    width: 300px;
+    height: 300px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px)
+{   .container{
+    height: 100vh;
+    }
+    .card{
+        width: 250px;
+        height: 80vh;
+        text-align: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .title{
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+
+
+    .input-url{
+        width: 150px;
+        height: 35px;
+
+    }
+
+    .submit-qrcode{
+        margin-bottom: 10px;
+    }
+
+    .QRCODE{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media(min-width: 481px) and (max-width: 768px){
+
+    .container{
+        height: 100vh;
+        }
+        .card{
+            width: 450px;
+            height: 90vh;
+            text-align: center;
+            justify-content: center;
+            gap: 15px;
+        }
+    
+        .title{
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
+    
+    
+    
+        .input-url{
+            width: 150px;
+            height: 35px;
+    
+        }
+    
+        .submit-qrcode{
+            margin-bottom: 10px;
+        }
+    
+        .QRCODE{
+            width: 250px;
+            height: 250px;
+        }
+
+}
