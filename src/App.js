@@ -1,6 +1,6 @@
 import './App.css';
 import QrGenerator from './components/qrgenerator';
-import { QRCodeSVG } from 'qrcode.react';
+
 
 function App() {
   return (
